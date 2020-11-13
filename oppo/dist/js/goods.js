@@ -90,7 +90,7 @@ define(["jquery","jquery-cookie"],function($){
                         </div>
                         <div class="btn">
                             <a id = "${goodsMsg.id}" href="">加入购物车</a>
-                            <a href="http://localhost:8889/cars.html">查看购物车</a>
+                            <a href="cars.html">查看购物车</a>
                         </div>
                     </div>
                 </div>

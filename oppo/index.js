@@ -7,7 +7,7 @@ define(["jquery"],function($){
             success:function(arr){
                 var navArr = arr.nav
                 var count = 0;
-                $(".header .tabBox .listBox a").mouseenter(function(){
+                $(".header .tabBox .listBox .list a").mouseenter(function(){
                     $(".header .goodsBox .goods").html("")
                     count = $(this).index()
                     var childsArr = navArr[count].childs;
