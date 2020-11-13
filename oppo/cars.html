@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>购物车</title>
+    <link rel="stylesheet" href="css/cars.min.css">
+    <link rel="stylesheet" type="text/css" href="iconfont/iconfont.css">
+    <!-- <script src = 'js/require.js' async = 'true' defer data-main = "js/main"></script> -->
+    <script src = 'js/require.js' async = 'true' defer data-main = "js/main_cars"></script>
+</head>
+<body>
+    <!-- header -->
+    <div class="header">
+        <!-- tab选项卡 -->
+        <div class="tabBox">
+            <div class="tab">
+                <div class="titleBox">
+                    <div class="title">
+                        <a class = 'logo' href="">
+                            <img src="images/ia_100000000.png" alt="">
+                            <span class="logo">欢太商城</span>
+                        </a>
+                        <div class="listBox">
+                            <div class="list">
+                                <a href="">OPPO专区</a>
+                                <a href="">一加专区</a>
+                                <a href="">realme专区</a>
+                                <a href="">智能硬件</a>
+                                <a href="">智美心品</a>
+                                <a href="">品牌</a>
+                            </div>
+                            <a class="ico" href="">
+                                <i class="iconfont" class="icobtn">&#xe616;</i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="goodsBox">
+                    <div class="goods">
+                        <!-- <a href="">
+                            <img src="images/ia_100001913.png" alt="">
+                            <h4>Find X2</h4>
+                        </a>
+                        <a href="">
+                            <img src="images/ia_100001914.png" alt="">
+                            <h4>Reno4 SE</h4>
+                        </a>
+                        <a href="">
+                            <img src="images/ia_100001915.png" alt="">
+                            <h4>K7</h4>
+                        </a>
+                        <a href="">
+                            <img src="images/ia_100001916.png" alt="">
+                            <h4>A72</h4>
+                        </a>
+                        <a href="">
+                            <img src="images/ia_100001915.png" alt="">
+                            <h4>K7</h4>
+                        </a>
+                        <a href="">
+                            <img src="images/ia_100001916.png" alt="">
+                            <h4>A72</h4>
+                        </a> -->
+                    </div>
+                </div>
+
+                <div class="car">
+                    <ul>
+                        <li>
+                            <a href="http://localhost:8889/cars.html">
+                                <i class="iconfont">&#xe638;</i>
+                                <span>&nbsp;&nbsp;购物车</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="iconfont">&#xe659;</i>
+                                <span>&nbsp;&nbsp;个人中心</span>
+                            </a>
+                        </li>
+                        <li class="lastli">
+                            <a href="">
+                                <i class="iconfont">&#xe654;</i>
+                                <span>&nbsp;&nbsp;登录</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>   
+    <!-- content -->
+    <div class="contentBox">
+        <div class="content">
+            <h1>购物车</h1>
+            <div class="goodsList">
+                <!-- <ol>
+                    <h2>你的购物车还是空的，快去逛逛吧。</h2>
+                    <a href="">带我去商城</a>
+                </ol> -->
+<!--                 
+                <ul id= "0">
+                    <li><input type="checkbox" name="xuan"></li>
+                    <li><img src="images/ia_100001916.png" alt=""></li>
+                    <li>ralme 真我Q2 冲浪蓝孩子/6GB+128GB</li>
+                    <li>￥<span>1299.00</span></li>
+                    <li class="count"><button>-</button><input type="text" value="1"><button>+</button></li>
+                    <li class = "delete"><i class="iconfont">&#xe618;</i></li>
+                </ul> -->
+
+                <!-- <ul id= "1">
+                    <li>
+                        <i class="iconfont">&#xe66b;</i>
+                        <i class="iconfont">&#xe655;</i>
+                    </li>
+                    <li><img src="images/ia_100001916.png" alt=""></li>
+                    <li>ralme 真我Q2 冲浪蓝孩子/6GB+128GB</li>
+                    <li>￥<span>1299.00</span></li>
+                    <li class="count"><button>-</button><input type="text" value="1"><button>+</button></li>
+                    <li class = "delete"><i class="iconfont">&#xe618;</i></li>
+                </ul> -->
+            </div>
+            
+            <div class="foot">
+                <div class="left">
+                    <a href="http://localhost:8889/index.html">
+                        <i class="iconfont">&#xe638;</i>
+                        <span>&nbsp;继续选购</span>
+                    </a>
+                </div>
+                <div class="right">
+                    <div class="price">
+                        <span>应付：</span><span>￥</span>
+                        <span class="sum">0.00</span>
+                    </div>
+                    <a href="">去结算</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 分割线 -->
+    <div class="goods_titleBox">
+        <div class="goods_title">
+            <fieldset>
+                <legend>&nbsp;买购物车商品中的人还买了&nbsp;</legend>
+            </fieldset>
+        </div>
+    </div>
+    <!-- goods_list -->
+    <div class="goods_listBox">
+        <div class="goods_list">
+            <ul>
+                <!-- <li>
+                    <img src="images/ia_100002005.png" alt="">
+                    <h1>名字</h1>
+                    <h2><span>299</span>元</h2>
+                    <h3>2.2万人好评</h3>
+                    <h4 href="">加入购物车</h4>
+                </li>
+                <li>
+                    <img src="images/ia_100002005.png" alt="">
+                    <h1>名字</h1>
+                    <h2><span>299</span>元</h2>
+                    <h3>2.2万人好评</h3>
+                    <h4 href="">加入购物车</h4>
+                </li>
+                <li>
+                    <img src="images/ia_100002005.png" alt="">
+                    <h1>名字</h1>
+                    <h2><span>299</span>元</h2>
+                    <h3>2.2万人好评</h3>
+                    <h4 href="">加入购物车</h4>
+                </li>
+                <li>
+                    <img src="images/ia_100002005.png" alt="">
+                    <h1>名字</h1>
+                    <h2><span>299</span>元</h2>
+                    <h3>2.2万人好评</h3>
+                    <h4 href="">加入购物车</h4>
+                </li>
+                <li>
+                    <img src="images/ia_100002005.png" alt="">
+                    <h1>名字</h1>
+                    <h2><span>299</span>元</h2>
+                    <h3>2.2万人好评</h3>
+                    <h4 href="">加入购物车</h4>
+                </li>
+                <li>
+                    <img src="images/ia_100002005.png" alt="">
+                    <h1>名字</h1>
+                    <h2><span>299</span>元</h2>
+                    <h3>2.2万人好评</h3>
+                    <h4 href="">加入购物车</h4>
+                </li> -->
+            </ul>
+        </div>
+    </div>
+
+
+
+
+    <!-- footer -->
+    <div class="footerBox">
+        <div class="footer">
+            <div class="top">
+                <ul>
+                    <li><a href="">关于欢太</a></li>
+                    <li><a href="">了解欢太</a></li>
+                    <li><a href="">欢太产品与服务</a></li>
+                    <li><a href="">联系我们</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">OPPO产品</a></li>
+                    <li><a href="">OPPO Reno4 SE</a></li>
+                    <li><a href="">OPPO Ace2</a></li>
+                    <li><a href="">OPPO K7</a></li>
+                    <li><a href="">OPPO Reno4 Pro</a></li>
+                    <li><a href="">OPPO A8</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">一加产品</a></li>
+                    <li><a href="">OnePlus 8T</a></li>
+                    <li><a href="">OnePlus 8</a></li>
+                    <li><a href="">OnePlus 8 Pro</a></li>
+                    <li><a href="">OnePlus Buds</a></li>
+                    <li><a href="">OnePlus 8 A8</a></li>
+                </ul> 
+                <ul>
+                    <li><a href="">realme产品</a></li>
+                    <li><a href="">Q2</a></li>
+                    <li><a href="">Q2 Pro</a></li>
+                    <li><a href="">X7 Pro</a></li>
+                    <li><a href="">V5</a></li>
+                </ul> 
+                <ul>
+                    <li><a href="">服务政策</a></li>
+                    <li><a href="">OPPO售后政策</a></li>
+                    <li><a href="">一加售后政策</a></li>
+                    <li><a href="">realme售后政策</a></li>
+                    <li><a href="">配送发货说明</a></li>
+                    <li><a href="">花呗分期说明</a></li>
+                    <li><a href="">电子发票说明</a></li>
+                </ul> 
+
+                <div class="topRight">
+                    <a href="">
+                        <i class="iconfont">&#xe635;</i>
+                        <span>在线客服</span>
+                    </a>
+                </div>
+            </div>
+            <!-- bottom -->
+            <div class="bottom">
+                <div>
+                    <span>&copy;2020 欢太 版权所有 </span>
+                    <a href="">粤ICP备14012291号</a>
+                    <a href="">| 隐私政策 |</a>
+                    <a href="">用户使用协议</a>
+                </div>
+                <div>
+                    <a href="">
+                        <img src="images/ia_100000021.png" alt="">
+                        <span> 粤公网安备 44190002004935号</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

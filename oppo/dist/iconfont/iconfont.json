@@ -1,0 +1,142 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "330206",
+      "name": "单选按钮",
+      "font_class": "ico2",
+      "unicode": "e66b",
+      "unicode_decimal": 58987
+    },
+    {
+      "icon_id": "774436",
+      "name": "关机",
+      "font_class": "guanji",
+      "unicode": "e654",
+      "unicode_decimal": 58964
+    },
+    {
+      "icon_id": "900069",
+      "name": "花呗",
+      "font_class": "huabei",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "1242158",
+      "name": "确认按钮",
+      "font_class": "querenanniu",
+      "unicode": "e655",
+      "unicode_decimal": 58965
+    },
+    {
+      "icon_id": "1279424",
+      "name": "个人中心",
+      "font_class": "gerenzhongxin",
+      "unicode": "e659",
+      "unicode_decimal": 58969
+    },
+    {
+      "icon_id": "1280169",
+      "name": "选择按钮框",
+      "font_class": "xuanzeanniukuang",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "4933166",
+      "name": "删除",
+      "font_class": "shanchu",
+      "unicode": "e6cd",
+      "unicode_decimal": 59085
+    },
+    {
+      "icon_id": "5387516",
+      "name": "按钮_选中",
+      "font_class": "anniu_xuanzhong",
+      "unicode": "eaef",
+      "unicode_decimal": 60143
+    },
+    {
+      "icon_id": "5387851",
+      "name": "按钮_选中_o",
+      "font_class": "anniu_xuanzhong_o",
+      "unicode": "eb72",
+      "unicode_decimal": 60274
+    },
+    {
+      "icon_id": "9512630",
+      "name": "客服",
+      "font_class": "service-fill",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
+      "icon_id": "10268256",
+      "name": "按钮_开启",
+      "font_class": "anniu_kaiqi",
+      "unicode": "e65a",
+      "unicode_decimal": 58970
+    },
+    {
+      "icon_id": "10292039",
+      "name": "删 除",
+      "font_class": "shanchu1",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "10885304",
+      "name": "转换",
+      "font_class": "zhuanhuan",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "11134478",
+      "name": "多选按钮",
+      "font_class": "duoxuananniu",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "11206637",
+      "name": "购物袋",
+      "font_class": "gouwudai",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "12975025",
+      "name": "购物车",
+      "font_class": "gouwuche",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "13229908",
+      "name": "箭头下",
+      "font_class": "jiantouxia",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "15685053",
+      "name": "按钮_选中",
+      "font_class": "anniu_xuanzhong1",
+      "unicode": "e6c6",
+      "unicode_decimal": 59078
+    },
+    {
+      "icon_id": "16563767",
+      "name": "删 除 ",
+      "font_class": "cangpeitubiao_shanchu",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    }
+  ]
+}

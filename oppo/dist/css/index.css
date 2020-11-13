@@ -1,0 +1,555 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+
+html, body {
+  height: 100%; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+ul, ol, li {
+  list-style: none; }
+
+.oppostyle {
+  background-color: #fff;
+  border-radius: 18px;
+  color: red;
+  cursor: pointer; }
+
+.actives {
+  color: black !important; }
+
+.liststyle {
+  color: #98979A !important; }
+
+.titleStyle {
+  background-color: white !important; }
+
+.header .topimg {
+  background: url("../images/ia_100000146.png");
+  height: 90px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+
+.header .navBox {
+  height: 50px;
+  background-color: black; }
+  .header .navBox .nav {
+    height: 50px;
+    width: 1200px;
+    margin: 0 auto; }
+    .header .navBox .nav a {
+      color: rgba(241, 241, 241, 0.8);
+      font-size: 14px;
+      float: left;
+      line-height: 50px;
+      padding-right: 70px; }
+
+.header .tabBox {
+  position: absolute;
+  width: 1519px;
+  height: 288px;
+  top: 140px;
+  left: 0;
+  z-index: 1; }
+  .header .tabBox .tab .titleBox {
+    height: 88px; }
+    .header .tabBox .tab .titleBox .title {
+      height: 88px;
+      width: 1200px;
+      margin: 0 auto;
+      line-height: 88px; }
+      .header .tabBox .tab .titleBox .title a {
+        float: left;
+        font-size: 20px;
+        padding: 0px 20px;
+        color: white; }
+      .header .tabBox .tab .titleBox .title .logo {
+        height: 88px;
+        width: 200px; }
+        .header .tabBox .tab .titleBox .title .logo img {
+          height: 49.4px;
+          width: 49.4px;
+          position: relative;
+          top: 14px; }
+        .header .tabBox .tab .titleBox .title .logo span {
+          font-size: 24px;
+          padding-left: 10px; }
+      .header .tabBox .tab .titleBox .title .listBox {
+        height: 88px;
+        margin-left: 300px;
+        position: relative; }
+        .header .tabBox .tab .titleBox .title .listBox .list {
+          height: 88px;
+          width: 850px;
+          position: relative; }
+          .header .tabBox .tab .titleBox .title .listBox .list a {
+            padding: 0px 30px; }
+        .header .tabBox .tab .titleBox .title .listBox .ico {
+          padding: 0px 10px;
+          margin-left: 0px;
+          position: absolute;
+          top: 0px;
+          right: 0px; }
+          .header .tabBox .tab .titleBox .title .listBox .ico .iconfont {
+            font-size: 20px; }
+  .header .tabBox .tab .goodsBox {
+    height: 0px;
+    background-color: white;
+    display: none; }
+    .header .tabBox .tab .goodsBox .goods {
+      width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center; }
+      .header .tabBox .tab .goodsBox .goods a {
+        float: left;
+        margin: 0px 20px;
+        text-align: center; }
+        .header .tabBox .tab .goodsBox .goods a h4 {
+          font-weight: 500; }
+        .header .tabBox .tab .goodsBox .goods a img {
+          width: 138px;
+          height: 138px; }
+  .header .tabBox .tab .car {
+    height: 200px;
+    width: 260px;
+    position: absolute;
+    left: 1210px;
+    top: 70px;
+    background-color: white;
+    border: 1px solid #e5e1e1;
+    display: none; }
+    .header .tabBox .tab .car ul {
+      padding: 10px 20px; }
+      .header .tabBox .tab .car ul li {
+        height: 50px;
+        margin: 8px;
+        line-height: 50px;
+        padding-left: 10px;
+        border-bottom: 1px solid #d1c7c7;
+        cursor: pointer; }
+        .header .tabBox .tab .car ul li a i {
+          font-size: 20px;
+          color: black !important; }
+        .header .tabBox .tab .car ul li a span {
+          font-size: 16px;
+          color: black !important; }
+      .header .tabBox .tab .car ul li:nth-of-type(2) i {
+        font-size: 21px; }
+    .header .tabBox .tab .car .lastli {
+      border: none; }
+
+.banner {
+  height: 700px;
+  overflow: hidden; }
+  .banner .imgBox {
+    height: 700px;
+    width: 7600px;
+    position: relative; }
+    .banner .imgBox img {
+      width: 1520px;
+      height: 700px;
+      float: left; }
+    .banner .imgBox section {
+      height: 570px;
+      width: 750px;
+      position: absolute;
+      left: 700px;
+      text-align: center;
+      line-height: 70px;
+      color: white; }
+      .banner .imgBox section h1 {
+        padding-top: 250px;
+        font-size: 56px;
+        font-weight: 500; }
+      .banner .imgBox section h3 {
+        font-size: 22px;
+        font-weight: 500; }
+      .banner .imgBox section a {
+        font-size: 18px;
+        height: 36px;
+        width: 130px;
+        background-color: white;
+        padding: 6px 24px;
+        border-radius: 18px;
+        line-height: 36px; }
+    .banner .imgBox section:nth-of-type(2) {
+      left: 2220px; }
+      .banner .imgBox section:nth-of-type(2) h1 {
+        color: black; }
+      .banner .imgBox section:nth-of-type(2) h3 {
+        color: #666; }
+      .banner .imgBox section:nth-of-type(2) a {
+        color: white;
+        background-color: red; }
+    .banner .imgBox section:nth-of-type(3) {
+      left: 3740px; }
+      .banner .imgBox section:nth-of-type(3) h1 {
+        color: black; }
+      .banner .imgBox section:nth-of-type(3) h3 {
+        color: #666; }
+      .banner .imgBox section:nth-of-type(3) a {
+        color: white;
+        background-color: red; }
+    .banner .imgBox section:nth-of-type(4) {
+      left: 5260px; }
+      .banner .imgBox section:nth-of-type(4) h1 {
+        color: black; }
+      .banner .imgBox section:nth-of-type(4) h3 {
+        color: #666; }
+      .banner .imgBox section:nth-of-type(4) a {
+        color: white;
+        background-color: red; }
+    .banner .imgBox section:nth-of-type(5) {
+      left: 6780px; }
+      .banner .imgBox section:nth-of-type(5) h1 {
+        color: white; }
+      .banner .imgBox section:nth-of-type(5) h3 {
+        color: white; }
+      .banner .imgBox section:nth-of-type(5) a {
+        color: black;
+        background-color: white; }
+  .banner .btn {
+    height: 30px;
+    position: relative;
+    top: -60px; }
+    .banner .btn .active {
+      background-color: orange; }
+    .banner .btn li {
+      height: 14px;
+      width: 14px;
+      background-color: black;
+      opacity: 0.5;
+      border-radius: 50%;
+      float: left;
+      margin-right: 20px;
+      position: relative;
+      left: 50%;
+      cursor: pointer; }
+
+.contentBox {
+  background-color: #f4f4f4;
+  padding: 50px 0px 100px 0px; }
+  .contentBox .content {
+    margin: 0 auto;
+    width: 1200px; }
+    .contentBox .content .oppo {
+      height: 1044px; }
+      .contentBox .content .oppo .top {
+        padding-top: 40px;
+        height: 60px;
+        width: 1200px;
+        line-height: 60px;
+        float: left; }
+        .contentBox .content .oppo .top h1 {
+          float: left;
+          font-size: 26px;
+          font-weight: normal;
+          padding-left: 10px; }
+        .contentBox .content .oppo .top ul {
+          margin-top: 14px;
+          height: 34px;
+          float: right;
+          line-height: 34px; }
+          .contentBox .content .oppo .top ul li {
+            float: left;
+            font-size: 16px;
+            padding: 0 16px;
+            margin-left: 18px; }
+      .contentBox .content .oppo .center {
+        width: 1210px; }
+        .contentBox .content .oppo .center a {
+          float: left;
+          margin: 16px;
+          width: 270px;
+          height: 440px;
+          background-color: white; }
+          .contentBox .content .oppo .center a img {
+            height: 203px;
+            width: 280px;
+            margin-top: 80px; }
+          .contentBox .content .oppo .center a h4 {
+            text-align: center;
+            font-size: 18px;
+            font-weight: normal;
+            margin-top: 40px; }
+          .contentBox .content .oppo .center a h5 {
+            text-align: center;
+            font-size: 18px;
+            font-weight: normal;
+            margin-top: 10px; }
+        .contentBox .content .oppo .center a:nth-child(1) {
+          width: 572px;
+          height: 440px;
+          position: relative; }
+          .contentBox .content .oppo .center a:nth-child(1) img {
+            height: 440px;
+            width: 580px;
+            margin-top: 0px; }
+          .contentBox .content .oppo .center a:nth-child(1) div {
+            height: 440px;
+            width: 300px;
+            position: absolute;
+            top: 0px;
+            left: 0px; }
+            .contentBox .content .oppo .center a:nth-child(1) div h4 {
+              padding-top: 140px;
+              text-align: center;
+              font-size: 26px;
+              font-weight: normal;
+              margin-top: 40px; }
+            .contentBox .content .oppo .center a:nth-child(1) div h5 {
+              text-align: center;
+              font-size: 22px;
+              font-weight: normal;
+              margin-top: 10px; }
+    .contentBox .content .onePlus {
+      height: 572px; }
+      .contentBox .content .onePlus .top {
+        padding-top: 40px;
+        height: 60px;
+        width: 1200px;
+        line-height: 60px;
+        float: left; }
+        .contentBox .content .onePlus .top h1 {
+          float: left;
+          font-size: 26px;
+          font-weight: normal;
+          padding-left: 10px; }
+        .contentBox .content .onePlus .top ul {
+          margin-top: 14px;
+          height: 34px;
+          float: right;
+          line-height: 34px; }
+          .contentBox .content .onePlus .top ul li {
+            float: left;
+            font-size: 16px;
+            padding: 0 16px;
+            margin-left: 18px; }
+      .contentBox .content .onePlus .center {
+        width: 1210px; }
+        .contentBox .content .onePlus .center a {
+          float: left;
+          margin: 16px 16px;
+          width: 270px;
+          height: 440px;
+          background-color: white; }
+          .contentBox .content .onePlus .center a img {
+            height: 203px;
+            width: 280px;
+            margin-top: 80px; }
+          .contentBox .content .onePlus .center a h4 {
+            text-align: center;
+            font-size: 18px;
+            font-weight: normal;
+            margin-top: 40px; }
+          .contentBox .content .onePlus .center a h5 {
+            text-align: center;
+            font-size: 18px;
+            font-weight: normal;
+            margin-top: 10px; }
+    .contentBox .content .realme {
+      height: 1516px; }
+      .contentBox .content .realme .top {
+        padding-top: 40px;
+        height: 60px;
+        width: 1200px;
+        line-height: 60px;
+        float: left; }
+        .contentBox .content .realme .top h1 {
+          float: left;
+          font-size: 26px;
+          font-weight: normal;
+          padding-left: 10px; }
+        .contentBox .content .realme .top ul {
+          margin-top: 14px;
+          height: 34px;
+          float: right;
+          line-height: 34px; }
+          .contentBox .content .realme .top ul li {
+            float: left;
+            font-size: 16px;
+            padding: 0 16px;
+            margin-left: 18px; }
+      .contentBox .content .realme .center {
+        width: 1210px; }
+        .contentBox .content .realme .center a {
+          float: left;
+          margin: 16px;
+          width: 270px;
+          height: 440px;
+          background-color: white; }
+          .contentBox .content .realme .center a img {
+            height: 203px;
+            width: 280px;
+            margin-top: 80px; }
+          .contentBox .content .realme .center a h4 {
+            text-align: center;
+            font-size: 18px;
+            font-weight: normal;
+            margin-top: 40px; }
+          .contentBox .content .realme .center a h5 {
+            text-align: center;
+            font-size: 18px;
+            font-weight: normal;
+            margin-top: 10px; }
+        .contentBox .content .realme .center a:nth-child(1) {
+          width: 572px;
+          height: 440px;
+          position: relative; }
+          .contentBox .content .realme .center a:nth-child(1) img {
+            height: 440px;
+            width: 580px;
+            margin-top: 0px; }
+          .contentBox .content .realme .center a:nth-child(1) div {
+            height: 440px;
+            width: 300px;
+            position: absolute;
+            top: 0px;
+            left: 0px; }
+            .contentBox .content .realme .center a:nth-child(1) div h4 {
+              padding-top: 140px;
+              text-align: center;
+              font-size: 26px;
+              font-weight: normal;
+              margin-top: 40px; }
+            .contentBox .content .realme .center a:nth-child(1) div h5 {
+              text-align: center;
+              font-size: 22px;
+              font-weight: normal;
+              margin-top: 10px; }
+    .contentBox .content .smart_devices {
+      height: 572px; }
+      .contentBox .content .smart_devices .top {
+        padding-top: 40px;
+        height: 60px;
+        width: 1200px;
+        line-height: 60px;
+        float: left; }
+        .contentBox .content .smart_devices .top h1 {
+          float: left;
+          font-size: 26px;
+          font-weight: normal;
+          padding-left: 10px; }
+        .contentBox .content .smart_devices .top ul {
+          margin-top: 14px;
+          height: 34px;
+          float: right;
+          line-height: 34px; }
+          .contentBox .content .smart_devices .top ul li {
+            float: left;
+            font-size: 16px;
+            padding: 0 16px;
+            margin-left: 18px; }
+      .contentBox .content .smart_devices .center {
+        width: 1210px; }
+        .contentBox .content .smart_devices .center a {
+          float: left;
+          margin: 16px;
+          width: 270px;
+          height: 440px;
+          background-color: white; }
+          .contentBox .content .smart_devices .center a img {
+            height: 203px;
+            width: 280px;
+            margin-top: 80px; }
+          .contentBox .content .smart_devices .center a h4 {
+            text-align: center;
+            font-size: 18px;
+            font-weight: normal;
+            margin-top: 40px; }
+          .contentBox .content .smart_devices .center a h5 {
+            text-align: center;
+            font-size: 18px;
+            font-weight: normal;
+            margin-top: 10px; }
+        .contentBox .content .smart_devices .center a:nth-child(1) {
+          width: 572px;
+          height: 440px;
+          position: relative; }
+          .contentBox .content .smart_devices .center a:nth-child(1) img {
+            height: 440px;
+            width: 580px;
+            margin-top: 0px; }
+          .contentBox .content .smart_devices .center a:nth-child(1) div {
+            height: 440px;
+            width: 300px;
+            position: absolute;
+            top: 0px;
+            left: 0px; }
+            .contentBox .content .smart_devices .center a:nth-child(1) div h4 {
+              padding-top: 140px;
+              text-align: center;
+              font-size: 26px;
+              font-weight: normal;
+              margin-top: 40px; }
+            .contentBox .content .smart_devices .center a:nth-child(1) div h5 {
+              text-align: center;
+              font-size: 22px;
+              font-weight: normal;
+              margin-top: 10px; }
+
+.footerBox {
+  padding: 60px 0px;
+  background-color: white; }
+  .footerBox .footer {
+    width: 1200px;
+    height: 400px;
+    margin: 0 auto; }
+    .footerBox .footer .top {
+      height: 205px;
+      width: 1200px; }
+      .footerBox .footer .top ul {
+        float: left;
+        width: 148px;
+        height: 205px; }
+        .footerBox .footer .top ul li a {
+          font-size: 13px;
+          color: #666;
+          line-height: 30px; }
+        .footerBox .footer .top ul li:nth-child(1) a {
+          color: #333; }
+      .footerBox .footer .top .topRight {
+        float: right;
+        width: 174px;
+        height: 54px;
+        line-height: 54px;
+        text-align: center;
+        background-color: #666;
+        border-radius: 26.5px; }
+        .footerBox .footer .top .topRight a {
+          display: block;
+          height: 54px;
+          width: 174px;
+          position: relative; }
+          .footerBox .footer .top .topRight a i {
+            font-size: 22px;
+            color: #fff;
+            position: absolute;
+            top: 2px;
+            left: 40px; }
+          .footerBox .footer .top .topRight a span {
+            font-size: 14px;
+            color: #fff;
+            position: absolute;
+            top: 0px;
+            left: 70px; }
+    .footerBox .footer .bottom {
+      width: 1200px;
+      height: 92px;
+      margin-top: 72px;
+      padding-top: 24px;
+      border-top: 1px solid #666;
+      text-align: center;
+      line-height: 40px; }
+      .footerBox .footer .bottom div span, .footerBox .footer .bottom div a {
+        color: #98979A;
+        font-size: 12px; }
+      .footerBox .footer .bottom div a img {
+        position: relative;
+        top: 3px; }

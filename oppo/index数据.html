@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        var arr = [
+            {
+                nav:[
+                    {
+                        title:"oppo",
+                        childs:[
+                            {
+                                name:"Find X2",
+                                img:"images/ia_100001913.png"
+                            },
+                            {
+                                name:"Reno4 SE",
+                                img:"images/ia_100001914.png"
+                            },
+                            {
+                                name:"K7",
+                                img:"images/ia_100001913.png"
+                            },
+                            {
+                                name:"A72",
+                                img:"images/ia_100001915.png"
+                            },
+                            {
+                                name:"智能家族",
+                                img:"images/ia_100001940.png"
+                            },
+                            {
+                                name:"更多",
+                                img:"images/ia_100001918.png"
+                            },
+                        ]
+                    },
+                    {
+                        title:"一加专区",
+                        childs:[
+                            {
+                               name:"OnePlus 8T",
+                                img:"images/ia_100001913.png"
+                            },
+                            {
+                               name:"OnePlus 8T 赛博朋克207",
+                                img:"images/ia_100001914.png"
+                            },
+                            {
+                               name:"OnePlus 8",
+                                img:"images/ia_100001913.png"
+                            },
+                            {
+                               name:"OnePlus 8Pro",
+                                img:"images/ia_100001915.png"
+                            },
+                            {
+                               name:"更多",
+                                img:"images/ia_100001918.png"
+                            },
+                        ]
+                    },
+                    {
+                        title:"realme专区",
+                        childs:[
+                            {
+                                name:"V系列",
+                                img:"images/ia_100001913.png"
+                            },
+                            {
+                                name:"X7系列",
+                                img:"images/ia_100001914.png"
+                            },
+                            {
+                                name:"Q2系列",
+                                img:"images/ia_100001913.png"
+                            },
+                            {
+                                name:"X50系列",
+                                img:"images/ia_100001915.png"
+                            },
+                            {
+                                name:"真我Buds Q",
+                                img:"images/ia_100001915.png"
+                            },
+                            {
+                                name:"更多",
+                                img:"images/ia_100001918.png"
+                            },
+                        ]
+                    },
+                    {
+                        title:"智能硬件",
+                        childs:[
+                            {
+                                name:"OPPO智能电视R1",
+                                img:"images/ia_100001913.png"
+                            },
+                            {
+                                name:"X7系列",
+                                img:"images/ia_100001914.png"
+                            },
+                            {
+                                name:"Q2系列",
+                                img:"images/ia_100001913.png"
+                            },
+                            {
+                                name:"X50系列",
+                                img:"images/ia_100001915.png"
+                            },
+                            {
+                                name:"更多",
+                                img:"images/ia_100001918.png"
+                            },
+                        ]
+                    },
+                    {
+                        title:"智美心品",
+                        childs:[
+                            {
+                                name:"美的空气净化器",
+                                img:"images/ia_100001913.png"
+                            },
+                            {
+                                name:"X7系列",
+                                img:"images/ia_100001914.png"
+                            },
+                            {
+                                name:"Q2系列",
+                                img:"images/ia_100001913.png"
+                            },
+                            {
+                                name:"X50系列",
+                                img:"images/ia_100001915.png"
+                            },
+                            {
+                                name:"真我Buds Q",
+                                img:"images/ia_100001915.png"
+                            }
+                        ]
+                    },
+                    {
+                        title:"品牌",
+                        childs:[
+                            {
+                                title:"OPPO官网",
+                                img:"images/ia_100001943.png"
+                            },
+                            {
+                                title:"一加官网",
+                                img:"images/ia_100001944.png"
+                            },
+                            {
+                                title:"realme官网",
+                                img:"images/ia_100001945.png"
+                            }
+                        ]
+                    },                    
+                ],
+                oppo:[
+                    {
+                        oppo:"手机",
+                        childs:[
+                            {
+                                title: "Reno4 SE",
+                                price:"￥2499",
+                                img:"images/ia_100000011.png",
+                                id:0,
+                            },
+                            {
+                                title: "Find X2 茶橘",
+                                price:"￥4499",
+                                img:"images/ia_100000012.png",
+                                id:1,
+                            },
+                            {
+                                title: "Ace2 月岩灰",
+                                price:"￥3299",
+                                img:"images/ia_100000013.png",
+                                id:2,
+                            },
+                            {
+                                title: "Reno4 Pro 晶钻蓝",
+                                price:"￥3799",
+                                img:"images/ia_100000014.png",
+                                id:3,
+                            },
+                            {
+                                title: "K7 流焰",
+                                price:"￥1999",
+                                img:"images/ia_100000015.png",
+                                id:4,
+                            },
+                            {
+                                title: "A72 5G 氧气紫",
+                                price:"￥1699",
+                                img:"images/ia_100000016.png",
+                                id:5,
+                            },
+                            {
+                                title: "A52 星耀白",
+                                price:"￥1599",
+                                img:"images/ia_100000017.png",
+                                id:6,
+                            },
+                        ]
+                    
+                    },
+                    {
+                        oppo:"智能硬件",
+                        childs:[
+                        {
+                                title: "OPPO 智能电视R1",
+                                price:"￥3299",
+                                img:"images/ia_100001967.png",
+                                id:0,
+                            },
+                            {
+                                title: "OPPO Enco X",
+                                price:"￥999",
+                                img:"images/ia_100001968.png",
+                                id:1,
+                            },
+                            {
+                                title: "OPPO Enco W31",
+                                price:"￥299",
+                                img:"images/ia_100002009.png",
+                                id:2,
+                            },
+                            {
+                                title: "OPPO Watch LPL版",
+                                price:"￥1999",
+                                img:"images/ia_100001970.png",
+                                id:3,
+                            },
+                            {
+                                title: "OPPO手环 静夜黑",
+                                price:"￥199",
+                                img:"images/ia_100001969.png",
+                                id:4,
+                            },
+                            {
+                                title: "OPPO手环 时尚版 流沙金",
+                                price:"￥249",
+                                img:"images/ia_100001971.png",
+                                id:5,
+                            },
+                            {
+                                title: "OPPO Enco W51",
+                                price:"￥499",
+                                img:"images/ia_100002008.png",
+                                id:6,
+                            },
+                            {
+                                title: "OPPO 40W 无线闪充充电器",
+                                price:"￥249",
+                                img:"images/ia_100002008.png",
+                                id:6,
+                            },
+                        ]
+                    },
+                ],
+                oneplus:[
+                    {
+                        oneplus:"手机",
+                        childs:[
+                            {
+                                title: "OnePlus 8T 青域",
+                                price:"￥3399",
+                                img:"images/ia_100000012.png",
+                            },
+                            {
+                                title: "OnePlus 赛博朋克2077",
+                                price:"￥3399",
+                                img:"images/ia_100000012.png",
+                            },
+                            {
+                                title: "OnePlus 8 银翼",
+                                price:"￥3599",
+                                img:"images/ia_100000013.png",
+                            },
+                            {
+                                title: "OnePlus 8Prp 青空",
+                                price:"￥4799",
+                                img:"images/ia_100000014.png",
+                            }
+                        ]
+                    },
+                    {
+                        oneplus:"其他",
+                        childs:[
+                            {
+                                title: "OnePlus Buds Z",
+                                price:"￥299",
+                                img:"images/ia_100002008.png",
+                            },
+                            {
+                                title: "OnePlus Buds 白色",
+                                price:"￥459",
+                                img:"images/ia_100002008.png",
+                            },
+                            {
+                                title: "OnePlus 银耳2T耳机 黑色",
+                                price:"￥119",
+                                img:"images/ia_100002008.png",
+                            },
+                            {
+                                title: "8T 全包保护壳",
+                                price:"￥99",
+                                img:"images/ia_100002008.png",
+                            },
+                            {
+                                title: "8 砂岩全包保护壳",
+                                price:"￥99",
+                                img:"images/ia_100002008.png",
+                            },
+                            {
+                                title: "8 Pro全包保护壳",
+                                price:"￥99",
+                                img:"images/ia_100002008.png",
+                            },
+                            {
+                                title: "Warp 无线充电器",
+                                price:"￥299",
+                                img:"images/ia_100002008.png",
+                            }
+                        ]
+                    },
+                ],
+                realme:[
+                    {
+                        realme:"手机",
+                        childs:[
+                            {
+                                title: "真我X7 Pro C位色",
+                                price:"￥2199",
+                                img:"images/ia_100001987.png",
+                                id:0,
+                            },
+                            {
+                                title: "真我Q2 冲浪蓝孩",
+                                price:"￥1299",
+                                img:"images/ia_100001988.png",
+                                id:1,
+                            },
+                            {
+                                title: "真我Q2 Pro C位色",
+                                price:"￥1499",
+                                img:"images/ia_100001989.png",
+                                id:2,
+                            },
+                            {
+                                title: "真我V5 银翼少年",
+                                price:"￥1299",
+                                img:"images/ia_100001990.png",
+                                id:3,
+                            },
+                            {
+                                title: "真我V3 月光银",
+                                price:"￥999",
+                                img:"images/ia_100001991.png",
+                                id:4,
+                            },
+                            {
+                                title: "真我X50 Pro红绣",
+                                price:"￥2899",
+                                img:"images/ia_100001992.png",
+                                id:5,
+                            },
+                            {
+                                title: "真我X50 Pro 玩家版 光速银",
+                                price:"￥2699",
+                                img:"images/ia_100001993.png",
+                                id:6,
+                            },
+                            {
+                                title: "真我Q2i 星海蓝",
+                                price:"￥948",
+                                img:"images/ia_100001994.png",
+                                id:6,
+                            },
+                            {
+                                title: "真我X7 幻梦白",
+                                price:"￥2399",
+                                img:"images/ia_100001995.png",
+                                id:6,
+                            },
+                            {
+                                title: "真我X50m 星空蓝",
+                                price:"￥1999",
+                                img:"images/ia_100001996.png",
+                                id:6,
+                            },
+                        ]
+                    
+                    },
+                    {
+                        realme:"其他",
+                        childs:[
+                            {
+                                title: "真我Buds Q",
+                                price:"￥109",
+                                img:"images/ia_100000011.png",
+                                id:0,
+                            },
+                            {
+                                title: "真我Buds WiressPro",
+                                price:"￥399",
+                                img:"images/ia_100000012.png",
+                                id:1,
+                            },
+                            {
+                                title: "真我Buds Air Pro",
+                                price:"￥499",
+                                img:"images/ia_100000013.png",
+                                id:2,
+                            },
+                            {
+                                title: "真我体脂称",
+                                price:"￥99",
+                                img:"images/ia_100000014.png",
+                                id:3,
+                            },
+                            {
+                                title: "真我30W闪充移动电源",
+                                price:"￥179",
+                                img:"images/ia_100000015.png",
+                                id:4,
+                            },
+                            {
+                                title: "真我电动牙刷N1",
+                                price:"￥69",
+                                img:"images/ia_100000016.png",
+                                id:5,
+                            },
+                        ]
+                    }
+                ],
+                smart_devices:[
+                    {
+                        smart_devices:"推荐",
+                        childs:[
+                            {
+                                title: "真我X7 Pro C位色",
+                                price:"￥2199",
+                                img:"images/ia_100001987.png",
+                                id:0,
+                            },
+                            {
+                                title: "真我Q2 冲浪蓝孩",
+                                price:"￥1299",
+                                img:"images/ia_100001988.png",
+                                id:1,
+                            },
+                            {
+                                title: "真我Q2 Pro C位色",
+                                price:"￥1499",
+                                img:"images/ia_100001989.png",
+                                id:2,
+                            },
+                        ]
+                    },
+                    {
+                        smart_devices:"智能电视",
+                        childs:[
+                            {
+                                title: "真我Buds Q",
+                                price:"￥109",
+                                img:"images/ia_100000011.png",
+                                id:0,
+                            },
+                            {
+                                title: "真我Buds WiressPro",
+                                price:"￥399",
+                                img:"images/ia_100000012.png",
+                                id:1,
+                            },
+                        ]
+                    },
+                    {
+                        smart_devices:"智能穿戴",
+                        childs:[
+                            {
+                                title: "真我X7 Pro C位色",
+                                price:"￥2199",
+                                img:"images/ia_100001987.png",
+                                id:0,
+                            },
+                            {
+                                title: "真我Q2 冲浪蓝孩",
+                                price:"￥1299",
+                                img:"images/ia_100001988.png",
+                                id:1,
+                            },
+                            {
+                                title: "真我Q2 Pro C位色",
+                                price:"￥1499",
+                                img:"images/ia_100001989.png",
+                                id:2,
+                            },
+                            {
+                                title: "真我V5 银翼少年",
+                                price:"￥1299",
+                                img:"images/ia_100001990.png",
+                                id:3,
+                            },
+                            {
+                                title: "真我V3 月光银",
+                                price:"￥999",
+                                img:"images/ia_100001991.png",
+                                id:4,
+                            },
+                            {
+                                title: "真我X50 Pro红绣",
+                                price:"￥2899",
+                                img:"images/ia_100001992.png",
+                                id:5,
+                            },
+                            {
+                                title: "真我X50 Pro 玩家版 光速银",
+                                price:"￥2699",
+                                img:"images/ia_100001993.png",
+                                id:6,
+                            },
+                            {
+                                title: "真我Q2i 星海蓝",
+                                price:"￥948",
+                                img:"images/ia_100001994.png",
+                                id:6,
+                            },
+                            {
+                                title: "真我X7 幻梦白",
+                                price:"￥2399",
+                                img:"images/ia_100001995.png",
+                                id:6,
+                            },
+                            {
+                                title: "真我X50m 星空蓝",
+                                price:"￥1999",
+                                img:"images/ia_100001996.png",
+                                id:6,
+                            },
+                            {
+                                title: "真我X7 幻梦白",
+                                price:"￥2399",
+                                img:"images/ia_100001995.png",
+                                id:6,
+                            },
+                            {
+                                title: "真我X50m 星空蓝",
+                                price:"￥1999",
+                                img:"images/ia_100001996.png",
+                                id:6,
+                            },
+                        ]
+                    },
+                    {
+                        smart_devices:"耳机影音",
+                        childs:[
+                            {
+                                title: "真我X7 Pro C位色",
+                                price:"￥2199",
+                                img:"images/ia_100000011.png",
+                                id:0,
+                            },
+                            {
+                                title: "真我Q2 冲浪蓝孩",
+                                price:"￥1299",
+                                img:"images/ia_100001989.png",
+                                id:1,
+                            },
+                            {
+                                title: "真我Q2 Pro C位色",
+                                price:"￥1499",
+                                img:"images/ia_100001990.png",
+                                id:2,
+                            },
+                            {
+                                title: "真我V5 银翼少年",
+                                price:"￥1299",
+                                img:"images/ia_100001991.png",
+                                id:3,
+                            },
+                            {
+                                title: "真我V3 月光银",
+                                price:"￥999",
+                                img:"images/ia_100001992.png",
+                                id:4,
+                            },
+                            {
+                                title: "真我X50 Pro红绣",
+                                price:"￥2899",
+                                img:"images/ia_100001993.png",
+                                id:5,
+                            },
+                            {
+                                title: "真我X50 Pro 玩家版 光速银",
+                                price:"￥2699",
+                                img:"images/ia_100001993.png",
+                                id:6,
+                            },
+                            {
+                                title: "真我Q2i 星海蓝",
+                                price:"￥948",
+                                img:"images/ia_100001994.png",
+                                id:6,
+                            },
+                            {
+                                title: "真我X7 幻梦白",
+                                price:"￥2399",
+                                img:"images/ia_100001995.png",
+                                id:6,
+                            },
+                        ]
+                    },
+                    {
+                        smart_devices:"智能家居",
+                        childs:[
+                            {
+                                title: "真我X7 Pro C位色",
+                                price:"￥2199",
+                                img:"images/ia_100001987.png",
+                                id:0,
+                            },
+                            {
+                                title: "真我Q2 冲浪蓝孩",
+                                price:"￥1299",
+                                img:"images/ia_100001988.png",
+                                id:1,
+                            },
+                            {
+                                title: "真我Q2 Pro C位色",
+                                price:"￥1499",
+                                img:"images/ia_100001989.png",
+                                id:2,
+                            },
+                            {
+                                title: "真我V5 银翼少年",
+                                price:"￥1299",
+                                img:"images/ia_100001990.png",
+                                id:3,
+                            },
+                            {
+                                title: "真我V3 月光银",
+                                price:"￥999",
+                                img:"images/ia_100001991.png",
+                                id:4,
+                            },
+                            {
+                                title: "真我X50 Pro红绣",
+                                price:"￥2899",
+                                img:"images/ia_100001992.png",
+                                id:5,
+                            },
+                            {
+                                title: "真我X50 Pro 玩家版 光速银",
+                                price:"￥2699",
+                                img:"images/ia_100001993.png",
+                                id:6,
+                            },
+                        ]
+                    },
+                    {
+                        smart_devices:"原厂配件",
+                        childs:[
+                            {
+                                title: "真我X7 Pro C位色",
+                                price:"￥2199",
+                                img:"images/ia_100000011.png",
+                                id:0,
+                            },
+                            {
+                                title: "真我Q2 冲浪蓝孩",
+                                price:"￥1299",
+                                img:"images/ia_100001990.png",
+                                id:1,
+                            },
+                            {
+                                title: "真我Q2 Pro C位色",
+                                price:"￥1499",
+                                img:"images/ia_100001991.png",
+                                id:2,
+                            },
+                            {
+                                title: "真我V5 银翼少年",
+                                price:"￥1299",
+                                img:"images/ia_100001992.png",
+                                id:3,
+                            },
+                            {
+                                title: "真我V3 月光银",
+                                price:"￥999",
+                                img:"images/ia_100001993.png",
+                                id:4,
+                            },
+                            {
+                                title: "真我X50 Pro红绣",
+                                price:"￥2899",
+                                img:"images/ia_100001992.png",
+                                id:5,
+                            },
+                            {
+                                title: "真我X50 Pro 玩家版 光速银",
+                                price:"￥2699",
+                                img:"images/ia_100001993.png",
+                                id:6,
+                            },
+                            {
+                                title: "真我Q2i 星海蓝",
+                                price:"￥948",
+                                img:"images/ia_100001994.png",
+                                id:6,
+                            },
+                            {
+                                title: "真我X7 幻梦白",
+                                price:"￥2399",
+                                img:"images/ia_100001995.png",
+                                id:6,
+                            },
+                            {
+                                title: "真我X50m 星空蓝",
+                                price:"￥1999",
+                                img:"images/ia_100001996.png",
+                                id:6,
+                            },
+                            {
+                                title: "真我X7 幻梦白",
+                                price:"￥2399",
+                                img:"images/ia_100001995.png",
+                                id:6,
+                            },
+                            {
+                                title: "真我X50m 星空蓝",
+                                price:"￥1999",
+                                img:"images/ia_100001996.png",
+                                id:6,
+                            },
+                            {
+                                title: "真我X50m 星空蓝",
+                                price:"￥1999",
+                                img:"images/ia_100001996.png",
+                                id:6,
+                            },
+                            {
+                                title: "真我X7 幻梦白",
+                                price:"￥2399",
+                                img:"images/ia_100001995.png",
+                                id:6,
+                            },
+                            {
+                                title: "真我X50m 星空蓝",
+                                price:"￥1999",
+                                img:"images/ia_100001996.png",
+                                id:6,
+                            },
+                        ]
+                    },
+                    {
+                        smart_devices:"保护壳",
+                        childs:[
+                            {
+                                title: "真我X7 Pro C位色",
+                                price:"￥2199",
+                                img:"images/ia_100001987.png",
+                                id:0,
+                            },
+                            {
+                                title: "真我Q2 冲浪蓝孩",
+                                price:"￥1299",
+                                img:"images/ia_100001993.png",
+                                id:1,
+                            },
+                            {
+                                title: "真我Q2 Pro C位色",
+                                price:"￥1499",
+                                img:"images/ia_100001992.png",
+                                id:2,
+                            },
+                            {
+                                title: "真我V5 银翼少年",
+                                price:"￥1299",
+                                img:"images/ia_100001991.png",
+                                id:3,
+                            },
+                            {
+                                title: "真我V3 月光银",
+                                price:"￥999",
+                                img:"images/ia_100001990.png",
+                                id:4,
+                            },
+                            {
+                                title: "真我X50 Pro红绣",
+                                price:"￥2899",
+                                img:"images/ia_100001992.png",
+                                id:5,
+                            },
+                            {
+                                title: "真我X50 Pro 玩家版 光速银",
+                                price:"￥2699",
+                                img:"images/ia_100001993.png",
+                                id:6,
+                            },
+                            {
+                                title: "真我Q2i 星海蓝",
+                                price:"￥948",
+                                img:"images/ia_100001994.png",
+                                id:6,
+                            },
+                            {
+                                title: "真我X7 幻梦白",
+                                price:"￥2399",
+                                img:"images/ia_100001995.png",
+                                id:6,
+                            },
+                            {
+                                title: "真我X50m 星空蓝",
+                                price:"￥1999",
+                                img:"images/ia_100001996.png",
+                                id:6,
+                            },
+                            {
+                                title: "真我X7 幻梦白",
+                                price:"￥2399",
+                                img:"images/ia_100001995.png",
+                                id:6,
+                            },
+                            {
+                                title: "真我X50m 星空蓝",
+                                price:"￥1999",
+                                img:"images/ia_100001996.png",
+                                id:6,
+                            },
+                            {
+                                title: "真我X50m 星空蓝",
+                                price:"￥1999",
+                                img:"images/ia_100001996.png",
+                                id:6,
+                            },
+                            {
+                                title: "真我X7 幻梦白",
+                                price:"￥2399",
+                                img:"images/ia_100001995.png",
+                                id:6,
+                            },
+                        ]
+                    },
+                    {
+                        smart_devices:"其他",
+                        childs:[
+                            {
+                                title: "真我X7 Pro C位色",
+                                price:"￥2199",
+                                img:"images/ia_100000011.png",
+                                id:0,
+                            },
+                            {
+                                title: "真我Q2 冲浪蓝孩",
+                                price:"￥1299",
+                                img:"images/ia_100001988.png",
+                                id:1,
+                            },
+                            {
+                                title: "真我Q2 Pro C位色",
+                                price:"￥1499",
+                                img:"images/ia_100001989.png",
+                                id:2,
+                            },
+                            {
+                                title: "真我V5 银翼少年",
+                                price:"￥1299",
+                                img:"images/ia_100001990.png",
+                                id:3,
+                            },
+                            {
+                                title: "真我V3 月光银",
+                                price:"￥999",
+                                img:"images/ia_100001991.png",
+                                id:4,
+                            },
+                            {
+                                title: "真我X50 Pro红绣",
+                                price:"￥2899",
+                                img:"images/ia_100001992.png",
+                                id:5,
+                            },
+                            {
+                                title: "真我X50 Pro 玩家版 光速银",
+                                price:"￥2699",
+                                img:"images/ia_100001993.png",
+                                id:6,
+                            },
+                            {
+                                title: "真我Q2i 星海蓝",
+                                price:"￥948",
+                                img:"images/ia_100001994.png",
+                                id:6,
+                            },
+                        ]
+                    }
+                    
+                    
+                ]
+            }
+        ]
+
+
+
+    var str = JSON.stringify(arr);
+    console.log(str);
+
+    </script>
+</body>
+</html>
