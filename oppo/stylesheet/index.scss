@@ -4,6 +4,8 @@
 }
 html,body{
     height: 100%;
+    width: 1519px;
+    margin: 0 auto;
 }
 a{
     text-decoration: none;
@@ -59,10 +61,11 @@ ul,ol,li{
     
     .tabBox{
         position: absolute;
-        width: 1519px;;
+        width: 1519px;
+        // width: 100%;
         height: 288px;
-        top:140px;
-        left:0;
+        // top:140px;
+        // left:0;
         z-index:1;
         .tab{
             .titleBox{
@@ -190,13 +193,16 @@ ul,ol,li{
 .banner{
     height: 700px;
     overflow: hidden;
+    width: 100%;
     .imgBox{
         height: 700px;
         width:7600px;
+        // width: 500%;
         position: relative;
-        // overflow: hidden;
+        // background-color: red;
         & img{
             width:1520px;
+            // width: 20%;
             height: 700px;
             float:left;
         }

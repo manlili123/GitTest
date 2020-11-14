@@ -64,6 +64,7 @@ define(["jquery","jquery-cookie"],function($){
             cookieArr.length ===0 ? $.cookie("goods", null) : $.cookie("goods", JSON.stringify(cookieArr), {
                 expires: 7
             })
+            isCheckAll()
         })
     }
 

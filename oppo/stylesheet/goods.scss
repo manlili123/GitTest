@@ -4,6 +4,8 @@
 }
 html,body{
     height: 100%;
+    width: 1519px;
+    margin: 0 auto;
 }
 a{
     text-decoration: none;
@@ -36,8 +38,8 @@ ul,ol,li{
 .header{
     //tab选项卡
     .tabBox{
-        // position: absolute;
-        width: 1519px;;
+        position: relative;
+        width: 1519px;
         // height: 288px;
         // top:140px;
         left:0;

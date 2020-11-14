@@ -12,7 +12,7 @@ define(["jquery"],function($){
                     count = $(this).index()
                     var childsArr = navArr[count].childs;
                         for(var i = 0; i < childsArr.length; i++){
-                            var node = $(`<a href="">
+                            var node = $(`<a href="list.html">
                                 <img src="${childsArr[i].img}" alt="">
                                 <h4>${childsArr[i].name}</h4>
                             </a>`);
